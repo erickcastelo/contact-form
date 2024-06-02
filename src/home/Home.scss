@@ -1,12 +1,9 @@
-$color-secundary: #e0f1e7;
 $color: #0c7d69;
 
 .home-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: $color-secundary;
 
   .card-footer {
     .button-submit {

@@ -1,10 +1,19 @@
-// $color-secundary: #e0f1e7;
-// $color: #0c7d69;
+$color-secundary: #e0f1e7;
 
-// .focus\:border-color-green-input:focus {
-//   border-color: $color !important;
-// }
+body {
+  height: 100vh;
+  background: $color-secundary;
 
-// .required-color {
-//   color: $color;
-// }
+  #root {
+    height: 100%;
+  }
+
+  @media (min-width: 1024px) {
+    #root {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
