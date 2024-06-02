@@ -1,0 +1,53 @@
+$color-secundary: #e0f1e7;
+$color: #0c7d69;
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: $color-secundary;
+
+  .card-footer {
+    .button-submit {
+      background: $color;
+      height: 4em;
+    }
+
+    .checkbox-home {
+      .checkbox-content {
+        label {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
+  #toastId {
+    background: #2c4144;
+    width: 25em;
+    height: 6em;
+    border-radius: 10px;
+    color: #e5eef3;
+    .Toastify__toast-body {
+      align-items: flex-start;
+      .Toastify__toast-icon {
+        height: 100%;
+        margin-top: 0.2em;
+      }
+      small {
+        color: #91a5a3;
+      }
+    }
+    .Toastify__close-button {
+      display: none;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .home-content {
+    .card-contact {
+      width: 40em;
+    }
+  }
+}

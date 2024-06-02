@@ -1,0 +1,11 @@
+$background-radio: #e0f1e7;
+
+.radio-box-content {
+  border-color: rgb(176 190 197 / 1);
+  border-radius: 8px;
+  border-width: 1px;
+
+  &.checked {
+    background: $background-radio;
+  }
+}
