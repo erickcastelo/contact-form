@@ -15,6 +15,7 @@ export const contactSchema = yup
     message: yup.string().required("Message is a required field"),
     isConsent: yup
       .bool()
+      .required()
       .oneOf([true], "To submit this form, please consent to being contact"),
   })
   .required();
