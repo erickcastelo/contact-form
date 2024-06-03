@@ -4,11 +4,10 @@ $color: #0c7d69;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 140vh;
-  .card-contact {
-    width: 51vh;
-  }
 
+  .card-contact {
+    margin: 1em 1em 1em 1em;
+  }
   .card-footer {
     .button-submit {
       background: $color;
