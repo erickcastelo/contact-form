@@ -54,7 +54,9 @@ export const Home = () => {
     <div className="home-content">
       <Card className="card-contact flex">
         <form onSubmit={handleSubmit(onSubmit)} noValidate>
-          <h1 className="mt-6 ml-6">Contact Us</h1>
+          <Typography className="mt-6 ml-6 text-green-default" variant="h3">
+            Contact Us
+          </Typography>
           <CardBody className="card-body flex flex-col gap-0 lg:gap-4">
             <div className="form-group lg:flex">
               <div className="lg:w-full lg:pr-4">
@@ -129,7 +131,7 @@ export const Home = () => {
               className="focus:border-green-default focus:border-t-green-default"
               required
             />
-            <div className="checkbox-home mt-6">
+            <div className="checkbox-home mt-6 mb-6">
               <Checkbox
                 useForm={form}
                 name="isConsent"

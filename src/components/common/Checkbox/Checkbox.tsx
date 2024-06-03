@@ -32,7 +32,7 @@ export const Checkbox = ({ ...props }: CheckboxProps) => {
         name={restProps.name ?? ""}
         control={control}
         render={({ field }) => (
-          <>
+          <div className="flex flex-col">
             <TaiCheckbox
               {...field}
               {...restProps}
@@ -73,7 +73,7 @@ export const Checkbox = ({ ...props }: CheckboxProps) => {
                 }
               </>
             )}
-          </>
+          </div>
         )}
       />
     </div>

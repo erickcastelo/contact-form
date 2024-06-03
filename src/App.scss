@@ -3,17 +3,10 @@ $color-secundary: #e0f1e7;
 body {
   height: 100vh;
   background: $color-secundary;
-
   #root {
-    height: 100%;
-  }
-
-  @media (min-width: 1024px) {
-    #root {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 133vh;
   }
 }
